@@ -1,8 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <link rel="stylesheet" type="text/css" href="css/css.css">
-  <title>{{ page.title }}</title>
-</head>
+<title> {{ page.title }} </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<header id='header'><span>Cole Wilson</span><nav><a href='projects'>Projects</a></nav></header>
-{{ content }}
-<footer>footer</footer>
+
+</head>
+<body>
+
+<header>
+  <h2>Cities</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">London</a></li>
+      <li><a href="#">Paris</a></li>
+      <li><a href="#">Tokyo</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    {{ content }}
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
